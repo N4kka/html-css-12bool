@@ -1,3 +1,38 @@
-body {
-    background-color: aqua;
+.row {
+    height: 50px;
+}
+
+.big-row {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #006cfa;
+}
+
+.box {
+    height: 50px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    background-color: #006cfa;
+}
+
+.green-box {
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    background-color: #00e165;
+}
+
+.mb-1 {
+    margin-bottom: 1em;
+}
+
+/* TEST */
+.flex {
+    display: flex;
 }
